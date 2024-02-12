@@ -1,7 +1,7 @@
 package com.wdcftgg.eventtweaker;
 
-import com.wdcftgg.eventtweaker.client.CTEventManager;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.fml.common.Loader;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLConstructionEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
@@ -32,6 +32,12 @@ public class EventTweaker {
     public void onConstruct(FMLConstructionEvent event) {
 
         MinecraftForge.EVENT_BUS.register(CTEventManager.Handler.class);
+        if (Loader.isModLoaded("botania")) {
+            MinecraftForge.EVENT_BUS.register(CTEventManagerBot.Handler.class);
+        }
+        if (Loader.isModLoaded("randomportals")) {
+            MinecraftForge.EVENT_BUS.register(CTEventManagerRP.Handler.class);
+        }
 
     }
 }

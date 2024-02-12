@@ -1,4 +1,4 @@
-package com.wdcftgg.eventtweaker.client.api;
+package com.wdcftgg.eventtweaker.client.api.event;
 
 import crafttweaker.annotations.ZenRegister;
 import net.minecraft.client.renderer.GlStateManager;

@@ -1,6 +1,6 @@
-package com.wdcftgg.eventtweaker.client.event;
+package com.wdcftgg.eventtweaker.client.impl.event;
 
-import com.wdcftgg.eventtweaker.client.api.IRenderGameOverlayEvent;
+import com.wdcftgg.eventtweaker.client.api.event.IRenderGameOverlayEvent;
 import net.minecraftforge.client.event.RenderGameOverlayEvent;
 
 /**

@@ -1,6 +1,6 @@
-package com.wdcftgg.eventtweaker.client.event;
+package com.wdcftgg.eventtweaker.client.impl.event;
 
-import com.wdcftgg.eventtweaker.client.api.IClientChatEvent;
+import com.wdcftgg.eventtweaker.client.api.event.IClientChatEvent;
 import net.minecraftforge.client.event.ClientChatEvent;
 
 /**

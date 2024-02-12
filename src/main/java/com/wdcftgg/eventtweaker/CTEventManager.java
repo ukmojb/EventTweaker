@@ -1,15 +1,14 @@
-package com.wdcftgg.eventtweaker.client;
+package com.wdcftgg.eventtweaker;
 
-import com.wdcftgg.eventtweaker.client.api.IClientChatEvent;
-import com.wdcftgg.eventtweaker.client.api.IRenderGameOverlayEvent;
-import com.wdcftgg.eventtweaker.client.event.MCClientChatEvent;
-import com.wdcftgg.eventtweaker.client.event.MCRenderGameOverlayEvent;
+import com.wdcftgg.eventtweaker.client.api.event.IClientChatEvent;
+import com.wdcftgg.eventtweaker.client.api.event.IRenderGameOverlayEvent;
+import com.wdcftgg.eventtweaker.client.impl.event.MCClientChatEvent;
+import com.wdcftgg.eventtweaker.client.impl.event.MCRenderGameOverlayEvent;
 import crafttweaker.annotations.ZenRegister;
 import crafttweaker.api.event.IEventHandle;
 import crafttweaker.api.event.IEventManager;
 import crafttweaker.util.EventList;
 import crafttweaker.util.IEventHandler;
-import net.minecraft.client.Minecraft;
 import net.minecraftforge.client.event.ClientChatEvent;
 import net.minecraftforge.client.event.RenderGameOverlayEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
@@ -40,6 +39,7 @@ public abstract class CTEventManager {
     public static IEventHandle onRenderGameOverlay(IEventManager manager, IEventHandler<IRenderGameOverlayEvent> event) {
         return RenderGameOverlayEventList.add(event);
     }
+
 
     public static final class Handler {
 

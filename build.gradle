@@ -124,9 +124,13 @@ dependencies {
         }
     }
 
+    compileOnly 'curse.maven:Botania-225643:3330934'
+    compileOnly 'curse.maven:RandomPortals-308137:3136488'
     compileOnly "CraftTweaker2:CraftTweaker2-MC1120-Main:1.12-4.1.20.695"
 
     runtimeOnly "CraftTweaker2:CraftTweaker2-MC1120-Main:1.12-4.1.20.695"
+    runtimeOnly "curse.maven:RandomPortals-308137:3136488"
+    runtimeOnly "curse.maven:Botania-225643:3330934"
 
 }
 

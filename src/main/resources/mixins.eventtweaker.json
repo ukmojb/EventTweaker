@@ -1,0 +1,17 @@
+{
+  "package": "com.wdcftgg.eventtweaker.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "mixins.eventtweaker.refmap.json",
+  "mixins": [
+    "bot.MixinSubTileGenerating",
+    "bot.MixinSubTileFunctional"
+  ],
+  "client": [
+  ],
+  "server": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+
+}
