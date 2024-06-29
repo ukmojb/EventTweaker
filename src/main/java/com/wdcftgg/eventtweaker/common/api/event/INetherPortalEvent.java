@@ -2,7 +2,6 @@ package com.wdcftgg.eventtweaker.common.api.event;
 
 import crafttweaker.annotations.ModOnly;
 import crafttweaker.annotations.ZenRegister;
-import crafttweaker.api.event.IBlockEvent;
 import crafttweaker.api.event.IEventCancelable;
 import crafttweaker.api.event.IWorldEvent;
 import crafttweaker.api.world.IWorld;

@@ -3,8 +3,8 @@
   "compatibilityLevel": "JAVA_8",
   "refmap": "mixins.eventtweaker.refmap.json",
   "mixins": [
-    "bot.MixinSubTileGenerating",
-    "bot.MixinSubTileFunctional"
+    "bot.MixinSubTileFunctional",
+    "bot.MixinSubTileGenerating"
   ],
   "client": [
   ],

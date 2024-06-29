@@ -68,6 +68,7 @@ minecraft {
     // Example:
     // injectedTags.put('VERSION', project.version)
     // injectedTags.put('MOD_ID', project.archives_base_name)
+    injectedTags.put("MOD_VERSION", project.version)
 }
 
 // Generate a group.archives_base_name.Tags class
@@ -126,10 +127,14 @@ dependencies {
 
     compileOnly 'curse.maven:Botania-225643:3330934'
     compileOnly 'curse.maven:RandomPortals-308137:3136488'
+    compileOnly 'curse.maven:Cyclic-239286:4075832'
+    compileOnly 'curse.maven:BubblesFork-995393:5252395'
     compileOnly "CraftTweaker2:CraftTweaker2-MC1120-Main:1.12-4.1.20.695"
 
     runtimeOnly "CraftTweaker2:CraftTweaker2-MC1120-Main:1.12-4.1.20.695"
     runtimeOnly "curse.maven:RandomPortals-308137:3136488"
+    runtimeOnly "curse.maven:Cyclic-239286:4075832"
+    runtimeOnly "curse.maven:BubblesFork-995393:5252395"
     runtimeOnly "curse.maven:Botania-225643:3330934"
 
 }

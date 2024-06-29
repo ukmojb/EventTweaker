@@ -1,11 +1,10 @@
 package com.wdcftgg.eventtweaker.common.impl.event;
 
 import com.therandomlabs.randomportals.api.event.NetherPortalEvent;
-import com.therandomlabs.randomportals.api.netherportal.NetherPortal;
+import com.therandomlabs.randomportals.api.frame.Frame;
 import com.wdcftgg.eventtweaker.common.api.event.INetherPortalEvent;
 import crafttweaker.api.minecraft.CraftTweakerMC;
 import crafttweaker.api.world.IWorld;
-import com.therandomlabs.randomportals.api.frame.Frame;
 
 /**
  * Created by IntelliJ IDEA.

@@ -1,11 +1,8 @@
 package com.wdcftgg.eventtweaker;
 
 import com.therandomlabs.randomportals.api.event.NetherPortalEvent;
-import com.wdcftgg.eventtweaker.common.api.event.IManaChangeEvent;
 import com.wdcftgg.eventtweaker.common.api.event.INetherPortalEvent;
-import com.wdcftgg.eventtweaker.common.impl.event.MCManaChangeEvent;
 import com.wdcftgg.eventtweaker.common.impl.event.MCNetherPortalEvent;
-import com.wdcftgg.eventtweaker.common.mcevent.mods.ManaChangeEvent;
 import crafttweaker.annotations.ModOnly;
 import crafttweaker.annotations.ZenRegister;
 import crafttweaker.api.event.IEventHandle;
