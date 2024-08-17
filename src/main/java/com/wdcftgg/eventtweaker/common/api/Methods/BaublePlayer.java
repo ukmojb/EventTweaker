@@ -1,4 +1,4 @@
-package com.wdcftgg.eventtweaker.common.api.methods;
+package com.wdcftgg.eventtweaker.common.api.Methods;
 
 import baubles.api.BaublesApi;
 import baubles.api.cap.IBaublesItemHandler;
