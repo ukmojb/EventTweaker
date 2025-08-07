@@ -20,7 +20,7 @@ public class EventTweaker {
 
     public static final String MODID = "eventtweaker";
     public static final String NAME = "EventTweaker";
-    public static final String VERSION = "1.3";
+    public static final String VERSION = "1.7";
     public static Logger logger;
     @Mod.Instance
     public static EventTweaker instance;
