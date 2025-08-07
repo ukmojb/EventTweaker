@@ -10,7 +10,6 @@ import stanhebben.zenscript.annotations.ZenMethod;
 @ZenClass("mods.eventtweaker.event.RenderPlayerEvent.Pre")
 public interface IRenderPlayerPreEvent extends IPlayerEvent {
 
-
     @ZenMethod
     float getPartialRenderTick();
 
