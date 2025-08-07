@@ -15,10 +15,10 @@ import java.util.List;
 public class ExpandArray {
 
     @ZenMethod
-    public <T> T[] add(T[] array, T any) {
-        List<T> list = Arrays.asList(array);
+    public static <T> T[] add(T[] array, T any) {
+        List<T> list = new ArrayList<>(Arrays.asList(array));
         list.add(any);
-        array = list.toArray(array);
-        return array;
+        return list.toArray(Arrays.copyOf(array, list.size()));
     }
 }
+
