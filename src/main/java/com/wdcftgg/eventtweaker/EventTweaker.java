@@ -15,7 +15,7 @@ import org.apache.logging.log4j.Logger;
  * @Author : wdcftgg
  * @create 2024/1/13 18:59
  */
-@Mod(modid = EventTweaker.MODID, name = EventTweaker.NAME, version = EventTweaker.VERSION, dependencies="required-after:crafttweaker")
+@Mod(modid = EventTweaker.MODID, name = EventTweaker.NAME, version = EventTweaker.VERSION, dependencies="required-after:crafttweaker;after:botania")
 public class EventTweaker {
 
     public static final String MODID = "eventtweaker";
