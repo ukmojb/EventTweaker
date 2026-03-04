@@ -4,7 +4,10 @@ import com.wdcftgg.eventtweaker.EventTweaker;
 import net.minecraftforge.fml.common.Loader;
 import zone.rong.mixinbooter.ILateMixinLoader;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
 import java.util.function.BooleanSupplier;
 
 /**

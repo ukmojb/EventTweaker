@@ -1,8 +1,6 @@
-package com.wdcftgg.eventtweaker.common.api.Methods;
+package com.wdcftgg.eventtweaker.common.api.methods;
 
 import crafttweaker.annotations.ZenRegister;
-import crafttweaker.api.minecraft.CraftTweakerMC;
-import crafttweaker.api.player.IPlayer;
 import net.minecraft.client.Minecraft;
 import stanhebben.zenscript.annotations.ZenClass;
 import stanhebben.zenscript.annotations.ZenMethod;
@@ -16,11 +14,6 @@ import stanhebben.zenscript.annotations.ZenMethod;
 @ZenRegister
 @ZenClass("mods.eventtweaker.Minecraft")
 public class IMinecraft {
-
-    @ZenMethod
-    public static IPlayer getPlayer(){
-        return CraftTweakerMC.getIPlayer(Minecraft.getMinecraft().player);
-    }
 
     @ZenMethod
     public static int getfps(){

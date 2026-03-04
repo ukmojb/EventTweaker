@@ -1,7 +1,7 @@
 package com.wdcftgg.eventtweaker.proxy;
 
 
-import com.wdcftgg.eventtweaker.CTEventManager;
+import com.wdcftgg.eventtweaker.client.event.ClientEvent;
 import net.minecraftforge.common.MinecraftForge;
 
 public class ClientProxy extends CommonProxy {
@@ -10,7 +10,8 @@ public class ClientProxy extends CommonProxy {
 	}
 
 	public void onInit(){
-		MinecraftForge.EVENT_BUS.register(CTEventManager.HandlerC.class);
+		super.onInit();
+		MinecraftForge.EVENT_BUS.register(ClientEvent.class);
 	}
 
 

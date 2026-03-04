@@ -2,7 +2,6 @@ package com.wdcftgg.eventtweaker.common.api.expand;
 
 
 import crafttweaker.annotations.ZenRegister;
-import crafttweaker.api.data.DataList;
 import stanhebben.zenscript.annotations.ZenExpansion;
 import stanhebben.zenscript.annotations.ZenMethod;
 

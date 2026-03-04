@@ -1,7 +1,7 @@
 package com.wdcftgg.eventtweaker.client.impl.event;
 
 import com.wdcftgg.eventtweaker.client.api.event.IClientChatEvent;
-import net.minecraftforge.client.event.ClientChatEvent;
+import com.wdcftgg.eventtweaker.common.mcevent.mc.ClientChatEvent;
 
 /**
  * Created by IntelliJ IDEA.
@@ -22,22 +22,16 @@ public class MCClientChatEvent implements IClientChatEvent {
     }
 
     @Override
-    public void setMessage(String message) {
-        event.setMessage(message);
-    }
-
-    @Override
     public String getOriginalMessage() {
         return event.getOriginalMessage();
     }
 
     @Override
     public boolean isCanceled() {
-        return event.isCanceled();
+        return false;
     }
 
     @Override
     public void setCanceled(boolean canceled) {
-        event.setCanceled(canceled);
     }
 }

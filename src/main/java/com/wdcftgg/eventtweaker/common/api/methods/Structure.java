@@ -1,9 +1,12 @@
-package com.wdcftgg.eventtweaker.common.api.Methods;
+package com.wdcftgg.eventtweaker.common.api.methods;
 
 import crafttweaker.annotations.ZenRegister;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
-import net.minecraft.world.gen.*;
+import net.minecraft.world.gen.ChunkGeneratorEnd;
+import net.minecraft.world.gen.ChunkGeneratorHell;
+import net.minecraft.world.gen.ChunkGeneratorOverworld;
+import net.minecraft.world.gen.ChunkProviderServer;
 import net.minecraft.world.gen.structure.MapGenStructure;
 import net.minecraft.world.gen.structure.StructureBoundingBox;
 import net.minecraft.world.gen.structure.StructureStart;

@@ -1,4 +1,4 @@
-package com.wdcftgg.eventtweaker.common.api.Methods;
+package com.wdcftgg.eventtweaker.common.api.methods;
 
 import crafttweaker.annotations.ZenRegister;
 import net.minecraft.client.Minecraft;
